@@ -1,0 +1,8 @@
+tensorflow
+Flatten
+cv2
+sklearn
+keras
+streamlit
+pandas
+numpy
