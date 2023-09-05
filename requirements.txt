@@ -5,3 +5,4 @@ keras
 streamlit
 pandas
 numpy
+cv2
