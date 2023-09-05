@@ -5,7 +5,7 @@ import keras
 from keras import layers
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
 from tensorflow.keras.optimizers import SGD
-#from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import MinMaxScaler
 import streamlit as st
 import cv2
 
