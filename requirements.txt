@@ -1,6 +1,6 @@
 tensorflow
 opencv-python
-sklearn
+scikit-learn
 keras
 streamlit
 pandas
