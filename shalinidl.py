@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-import tensorflow as tf
+import tensorflow 
 import keras
 from keras import layers
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
@@ -10,7 +10,7 @@ import streamlit as st
 import cv2
 
 # Load the trained model
-model = keras.Sequential()
+model =tensorflow. keras.Sequential()
 model.add(Conv2D(64, (3, 3), activation="relu", input_shape=(28, 28, 1)))
 model.add(MaxPooling2D((2, 2)))
 model.add(Conv2D(64, (3, 3), activation="relu"))
