@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import tensorflow 
 import keras
-import scikit-learn
+#import scikit-learn
 from keras import layers
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
 from tensorflow.keras.optimizers import SGD
