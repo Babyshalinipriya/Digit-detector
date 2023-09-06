@@ -8,7 +8,7 @@ from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
 from tensorflow.keras.optimizers import SGD
 #from scikit-learn.preprocessing import MinMaxScaler
 import streamlit as st
-import cv2
+from opencv-python import cv2
 
 # Load the trained model
 model =tensorflow.keras.Sequential()
